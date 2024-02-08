@@ -696,7 +696,7 @@
 //
 // Warn users of potential endstop/DIAG pin conflicts to prevent homing issues when not using sensorless homing
 //
-#if !USE_SENSORLESS && HAS_DIAG_PINS
+/*#if !USE_SENSORLESS && HAS_DIAG_PINS
   #if ENABLED(USES_DIAG_JUMPERS) && DISABLED(DIAG_JUMPERS_REMOVED)
     #warning "Motherboard DIAG jumpers must be removed when SENSORLESS_HOMING is disabled. (Define DIAG_JUMPERS_REMOVED to suppress this warning.)"
   #endif
@@ -704,6 +704,7 @@
     #warning "Driver DIAG pins must be physically removed unless SENSORLESS_HOMING is enabled. (See https://bit.ly/2ZPRlt0) (Define DIAG_PINS_REMOVED to suppress this warning.)"
   #endif
 #endif
+*/
 
 #if ENABLED(QUICK_HOME) && (X_SPI_SENSORLESS || Y_SPI_SENSORLESS)
   #warning "SPI_ENDSTOPS may be unreliable with QUICK_HOME. Adjust back-offs for better results."
