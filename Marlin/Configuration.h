@@ -1,3 +1,4 @@
+#define DIAG_JUMPERS_REMOVED
 /**
  * Marlin 3D Printer Firmware
  * Copyright (c) 2022 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
