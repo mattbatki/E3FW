@@ -1,4 +1,3 @@
-#define DIAG_JUMPERS_REMOVED
 /**
  * Marlin 3D Printer Firmware
  * Copyright (c) 2022 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
@@ -134,6 +133,7 @@
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
 #define MACHINE_UUID "ade36cef-4f17-427e-8fef-5fb0449ebf60"
+#define DIAG_JUMPERS_REMOVED
 
 // @section stepper drivers
 
