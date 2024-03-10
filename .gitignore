@@ -9,3 +9,5 @@ buildroot/share/PlatformIO/scripts/__pycache__/pioutil.cpython-311.pyc
 .pio/build/project.checksum
 .vscode/c_cpp_properties.json
 .vscode/launch.json
+.pio/build/project.checksum
+buildroot/share/PlatformIO/scripts/__pycache__/pioutil.cpython-311.pyc
