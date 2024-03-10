@@ -8,27 +8,27 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Users/matth/Documents/VSCode/E3FW/Marlin",
-                "C:/Users/matth/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                "C:/Users/matth/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
-                "C:/Users/matth/.platformio/packages/framework-arduino-avr/cores/arduino",
-                "C:/Users/matth/.platformio/packages/framework-arduino-avr/variants/mega",
-                "C:/Users/matth/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
-                "C:/Users/matth/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                "C:/Users/matth/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/matthewbatkiewicz/Documents/VSCode/E3FW/Marlin",
+                "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Users/matth/Documents/VSCode/E3FW/Marlin",
-                    "C:/Users/matth/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                    "C:/Users/matth/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
-                    "C:/Users/matth/.platformio/packages/framework-arduino-avr/cores/arduino",
-                    "C:/Users/matth/.platformio/packages/framework-arduino-avr/variants/mega",
-                    "C:/Users/matth/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
-                    "C:/Users/matth/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                    "C:/Users/matth/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/matthewbatkiewicz/Documents/VSCode/E3FW/Marlin",
+                    "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
                     ""
                 ]
             },
@@ -45,7 +45,7 @@
             ],
             "cStandard": "gnu11",
             "cppStandard": "gnu++17",
-            "compilerPath": "C:/Users/matth/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerPath": "/Users/matthewbatkiewicz/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
             "compilerArgs": [
                 "-mmcu=atmega2560",
                 ""
