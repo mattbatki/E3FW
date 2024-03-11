@@ -8,7 +8,7 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/Users/matthewbatkiewicz/Documents/VSCode/E3FW/Marlin",
+                "/Users/matthewbatkiewicz/VSCode/E3FW/Marlin",
                 "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/cores/arduino",
@@ -21,7 +21,7 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/Users/matthewbatkiewicz/Documents/VSCode/E3FW/Marlin",
+                    "/Users/matthewbatkiewicz/VSCode/E3FW/Marlin",
                     "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     "/Users/matthewbatkiewicz/.platformio/packages/framework-arduino-avr/cores/arduino",
