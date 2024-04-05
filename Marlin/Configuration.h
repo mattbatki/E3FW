@@ -675,8 +675,8 @@
  * PIDTEMP : PID temperature control (~4.1K)
  * MPCTEMP : Predictive Model temperature control. (~1.8K without auto-tune)
  */
-#define PIDTEMP           // See the PID Tuning Guide at https://reprap.org/wiki/PID_Tuning
-//#define MPCTEMP         // ** EXPERIMENTAL ** See https://marlinfw.org/docs/features/model_predictive_control.html
+//define PIDTEMP           // See the PID Tuning Guide at https://reprap.org/wiki/PID_Tuning
+#define MPCTEMP         // ** EXPERIMENTAL ** See https://marlinfw.org/docs/features/model_predictive_control.html
 
 #define PID_MAX  255      // Limit hotend current while PID is active (see PID_FUNCTIONAL_RANGE below); 255=full current
 #define PID_K1     0.95   // Smoothing factor within any PID loop
@@ -712,8 +712,8 @@
  */
 #if ENABLED(MPCTEMP)
   #define MPC_AUTOTUNE                                // Include a method to do MPC auto-tuning (~6.3K bytes of flash)
-  //#define MPC_EDIT_MENU                             // Add MPC editing to the "Advanced Settings" menu. (~1.3K bytes of flash)
-  //#define MPC_AUTOTUNE_MENU                         // Add MPC auto-tuning to the "Advanced Settings" menu. (~350 bytes of flash)
+  #define MPC_EDIT_MENU                             // Add MPC editing to the "Advanced Settings" menu. (~1.3K bytes of flash)
+  #define MPC_AUTOTUNE_MENU                         // Add MPC auto-tuning to the "Advanced Settings" menu. (~350 bytes of flash)
 
   #define MPC_MAX 255                                 // (0..255) Current to nozzle while MPC is active.
   #define MPC_HEATER_POWER { 40.0f }                  // (W) Heat cartridge powers.
@@ -730,8 +730,8 @@
 
   // For one fan and multiple hotends MPC needs to know how to apply the fan cooling effect.
   #if ENABLED(MPC_INCLUDE_FAN)
-    //#define MPC_FAN_0_ALL_HOTENDS
-    //#define MPC_FAN_0_ACTIVE_HOTEND
+    #define MPC_FAN_0_ALL_HOTENDS
+    #define MPC_FAN_0_ACTIVE_HOTEND
   #endif
 
   // Filament Heat Capacity (joules/kelvin/mm)
@@ -1591,7 +1591,7 @@
  *     O-- FRONT --+
  */
 /*Probe Z Offset Housed Here*/
-#define NOZZLE_TO_PROBE_OFFSET { -44, -16, -0.272 }
+#define NOZZLE_TO_PROBE_OFFSET { -44, -16, -0.294 }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0

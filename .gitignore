@@ -21,3 +21,9 @@ buildroot/share/PlatformIO/scripts/__pycache__/signature.cpython-311.pyc
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 buildroot/share/PlatformIO/scripts/__pycache__/pioutil.cpython-311.pyc
+buildroot/share/PlatformIO/scripts/__pycache__/marlin.cpython-311.pyc
+buildroot/share/PlatformIO/scripts/__pycache__/preprocessor.cpython-311.pyc
+buildroot/share/PlatformIO/scripts/__pycache__/schema.cpython-311.pyc
+buildroot/share/PlatformIO/scripts/__pycache__/signature.cpython-311.pyc
+.pio/build/project.checksum
+.vscode/c_cpp_properties.json
